@@ -2,9 +2,10 @@
   "name": "myflix",
   "version": "1.0.0",
   "description": "\"A video streaming app \"",
-  "main": "script.js",
+  "type": "module",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "author": "Harsh Verdhan Singh",
   "license": "ISC",
@@ -19,5 +20,8 @@
     "mongoose": "^8.0.0",
     "mongoose-aggregate-paginate-v2": "^1.0.6",
     "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.2"
   }
 }
